@@ -1,0 +1,26 @@
+﻿[
+    {
+        "Name": "GIGABYTE Nvidia GeForce ® GTX 1650 D6 pci_e_x16 WINDFORCE OC 4GD Graphics Card with Integrated 4GB GDDR6 Memory (GV-N1656WF2OC-4GD)",
+        "Price": 29.99,
+        "ImageUrl": "~/Content/Images/1.jpg",
+        "Description": "GIGABYTE Nvidia GeForce ® GTX 1650 D6 pci_e_x16 WINDFORCE OC 4GD Graphics Card with Integrated 4GB GDDR6 Memory (GV-N1656WF2OC-4GD)"
+    },
+    {
+        "Name": "PNY Nvidia Quadro T400 2GB GDDR6 Graphics Card (VCNT400-SB, PCI_E_X16)",
+        "Price": 39.99,
+        "ImageUrl": "~/Content/Images/2.jpg",
+        "Description": "PNY Nvidia Quadro T400 2GB GDDR6 Graphics Card (VCNT400-SB, PCI_E_X16)"
+    },
+    {
+        "Name": "Powercolor AMD Radeon Rx 550 Red Dragon Low Profile Single Fan 4Gb Gddr5 Pcie 3.0 Graphics Card,agp",
+        "Price": 49.99,
+        "ImageUrl": "~/Content/Images/3.jpg",
+        "Description": "Powercolor AMD Radeon Rx 550 Red Dragon Low Profile Single Fan 4Gb Gddr5 Pcie 3.0 Graphics Card,agp"
+    },
+    {
+        "Name": "GIGABYTE GeForce GTX 1650 OC 4GB GDDR6 Graphics Card, 1X 80 mm Windforce Fan (GV-N1656OC-4GD)",
+        "Price": 49.99,
+        "ImageUrl": "~/Content/Images/4.jpg",
+        "Description": "GIGABYTE GeForce GTX 1650 OC 4GB GDDR6 Graphics Card, 1X 80 mm Windforce Fan (GV-N1656OC-4GD)"
+    }
+]
