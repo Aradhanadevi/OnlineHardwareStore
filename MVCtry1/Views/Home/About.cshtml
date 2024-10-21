@@ -1,9 +1,52 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
 
-    <p>Use this area to provide additional information.</p>
+<main aria-labelledby="title" class="container mt-4">
+    <h2 id="title" class="text-center">@ViewBag.Title</h2>
+    <h3 class="text-center">@ViewBag.Message</h3>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h4>Our Story</h4>
+            <p>
+                Welcome to our e-commerce platform! We are dedicated to providing our customers with the best products and an exceptional shopping experience. Our journey began with a passion for technology and a vision to make high-quality products accessible to everyone.
+            </p>
+            <p>
+                We believe in quality over quantity, which is why we carefully curate our selection to ensure that each product meets our high standards. Whether you're looking for the latest gadgets or timeless classics, we've got something for you.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h4>Our Mission</h4>
+            <p>
+                Our mission is to empower our customers by providing them with innovative products that enhance their daily lives. We strive to deliver outstanding service and support, making your shopping experience as seamless as possible.
+            </p>
+            <p>
+                Join us on our journey, and let us help you find the perfect products to fit your lifestyle!
+            </p>
+        </div>
+    </div>
+
+    <div class="text-center mt-4">
+        <h4>Meet Our Team</h4>
+        <img src="~/Content/Images/team.jpg" alt="Our Team" class="img-fluid" style="max-width: 80%; height: auto;" />
+        <p>We are a team of passionate individuals committed to your satisfaction.</p>
+    </div>
 </main>
+
+<style>
+    main {
+        background-color: #f8f9fa;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2, h3, h4 {
+        color: #343a40;
+    }
+
+    p {
+        color: #555;
+    }
+</style>

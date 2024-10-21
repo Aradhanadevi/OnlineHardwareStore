@@ -1,33 +1,82 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Welcome to Our Online Store";
 }
 
-<main>
-    <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+<main class="container mt-4">
+    <section class="text-center mb-4" aria-labelledby="welcomeTitle">
+        <h1 id="welcomeTitle" class="display-4">Welcome to Our Online Store</h1>
+        <p class="lead">Discover amazing products at unbeatable prices.</p>
+        <a href="@Url.Action("Products", "Home")" class="btn btn-primary btn-lg">Shop Now</a>
     </section>
 
     <div class="row">
-        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
-            <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
-            </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-        </section>
-        <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-        </section>
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body text-center">
+                    <h5>Featured Products</h5>
+                    <p>Check out our selection of top-rated products!</p>
+                    <a class="btn btn-outline-dark" href="@Url.Action("Products", "Home")">View Products</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body text-center">
+                    <h5>Best Sellers</h5>
+                    <p>Explore our best-selling items and see why they are so popular!</p>
+                    <a class="btn btn-outline-dark" href="@Url.Action("Products", "Home")">Shop Best Sellers</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+                <div class="card-body text-center">
+                    <h5>Special Offers</h5>
+                    <p>Don’t miss out on our limited-time offers!</p>
+                    <a class="btn btn-outline-dark" href="@Url.Action("Products", "Home")">See Offers</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <h3>Join Our Newsletter</h3>
+        <p>Stay updated with the latest products and exclusive offers.</p>
+        <form class="form-inline justify-content-center">
+            <input type="email" class="form-control mb-2 mr-sm-2" placeholder="Enter your email" required />
+            <button type="submit" class="btn btn-success mb-2">Subscribe</button>
+        </form>
     </div>
 </main>
+
+<style>
+    main {
+        background-color: #f8f9fa;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        color: #343a40;
+    }
+
+    h5 {
+        color: #495057;
+    }
+
+    p {
+        color: #555;
+    }
+
+    .card {
+        border: none;
+        transition: transform 0.2s;
+    }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+</style>

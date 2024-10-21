@@ -124,6 +124,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -148,6 +149,7 @@
     <Content Include="Content\Images\2.jpg" />
     <Content Include="Content\Images\3.jpg" />
     <Content Include="Content\Images\4.jpg" />
+    <Content Include="Content\Images\5.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -186,6 +188,7 @@
     <Content Include="Views\Home\Details.cshtml" />
     <Content Include="Views\Home\Cart.cshtml" />
     <Content Include="Views\Home\Products.cshtml" />
+    <Content Include="Views\Home\AddToCart.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
